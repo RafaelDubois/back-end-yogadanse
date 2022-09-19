@@ -8,10 +8,6 @@ const app = express();
 const port = 4444
 const OAuth2 = OAuth2Client
 const {google} = require('googleapis');
-const oauth2Client = new OAuth2(
-process.env.CLIENT_ID,
-process.env.CLIENT_SECRET,
-"https://developers.google.com/oauthplayground")
 
 require('dotenv').config()
 
